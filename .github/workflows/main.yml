@@ -56,7 +56,7 @@ jobs:
           python-version: '3.x'
       
       - name: Run Tests
-        run: python -m unittest discover -s tests -p 'my_python_game/test_game.py'
+        run: python -m unittest discover -s tests -p '*_test.py'
 
   deploy_staging:
     name: Deploy to Staging
