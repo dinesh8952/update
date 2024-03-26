@@ -1,3 +1,7 @@
+"""
+This module contains a simple number guessing game.
+"""
+
 import random
 
 def guess_number():
